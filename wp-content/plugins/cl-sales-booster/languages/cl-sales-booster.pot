@@ -1,0 +1,308 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cepatlakoo Sales Booster\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-17 13:01+0700\n"
+"PO-Revision-Date: 2018-03-14 09:20+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Cepatlakoo <cepatlakoo@gmail.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;esc_html__;__;esc_html_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../cepatlakoo-sales-booster.php:25
+msgid "Settings"
+msgstr ""
+
+#: ../cepatlakoo-sales-booster.php:57 ../init.php:374
+msgid "Every 3 Hours"
+msgstr ""
+
+#: ../cepatlakoo-sales-booster.php:61 ../init.php:375
+msgid "Every 6 Hours"
+msgstr ""
+
+#: ../cepatlakoo-sales-booster.php:65 ../init.php:378
+msgid "Weekly"
+msgstr ""
+
+#: ../cepatlakoo-sales-booster.php:94
+msgid ""
+"Cepatlakoo Sales Booster is an Extension to WooCommerce. Please activate "
+"WooCommerce first!"
+msgstr ""
+
+#: ../init.php:39
+msgid "Setting Saved."
+msgstr ""
+
+#: ../init.php:202
+msgid "Cepatlakoo Sales Booster for WooCommerce"
+msgstr ""
+
+#: ../init.php:205
+msgid "Sales Booster"
+msgstr ""
+
+#: ../init.php:206
+msgid "Marketplace"
+msgstr ""
+
+#: ../init.php:251
+msgid "Enable Sales Booster"
+msgstr ""
+
+#: ../init.php:255 ../init.php:266 ../init.php:326 ../init.php:351
+#: ../init.php:362 ../init.php:393
+msgid "Yes"
+msgstr ""
+
+#: ../init.php:257 ../init.php:395
+msgid "No"
+msgstr ""
+
+#: ../init.php:262
+msgid "Display buyer's name?"
+msgstr ""
+
+#: ../init.php:273
+msgid "Number of sales displayed:"
+msgstr ""
+
+#: ../init.php:288
+msgid "Set minimal delay"
+msgstr ""
+
+#: ../init.php:298 ../init.php:315
+msgid "seconds"
+msgstr ""
+
+#: ../init.php:299
+msgid "Minimum delay time between each notification."
+msgstr ""
+
+#: ../init.php:305
+msgid "Set maxmimum delay"
+msgstr ""
+
+#: ../init.php:316
+msgid "Max value must greater than min value"
+msgstr ""
+
+#: ../init.php:317
+msgid "Maximum delay time between each notification."
+msgstr ""
+
+#: ../init.php:322
+msgid "Display randomly?"
+msgstr ""
+
+#: ../init.php:333
+msgid "Product Name Length"
+msgstr ""
+
+#: ../init.php:337
+msgid "Unlimited"
+msgstr ""
+
+#: ../init.php:342
+msgid "Word(s)"
+msgstr ""
+
+#: ../init.php:347
+msgid "Display from same product ?"
+msgstr ""
+
+#: ../init.php:353
+msgid ""
+"If selected, it will ONLY display sales notification from the same "
+"product on the product page. If there's no sale yet for that product, it "
+"will display sales from other products."
+msgstr ""
+
+#: ../init.php:358
+msgid "Display purchase date"
+msgstr ""
+
+#: ../init.php:369
+msgid "Auto Update Order List"
+msgstr ""
+
+#: ../init.php:373
+msgid "Every 1 Hour"
+msgstr ""
+
+#: ../init.php:376
+msgid "Every 12 Hours"
+msgstr ""
+
+#: ../init.php:377
+msgid "Daily"
+msgstr ""
+
+#: ../init.php:385 ../init.php:489
+msgid "Save Changes"
+msgstr ""
+
+#: ../init.php:389
+msgid "Enable Marketplace Link"
+msgstr ""
+
+#: ../init.php:399
+msgid "Text Information"
+msgstr ""
+
+#: ../init.php:411
+msgid "Facebook Pixel Event"
+msgstr ""
+
+#: ../init.php:426
+msgid "Custom Event"
+msgstr ""
+
+#: ../init.php:432
+msgid "Listing Marketplace"
+msgstr ""
+
+#: ../init.php:437
+msgid "Sort"
+msgstr ""
+
+#: ../init.php:438
+msgid "Logo"
+msgstr ""
+
+#: ../init.php:439 ../init.php:454 ../init.php:473
+msgid "Name"
+msgstr ""
+
+#: ../init.php:440
+msgid "Action"
+msgstr ""
+
+#: ../init.php:451
+msgid "Change Logo"
+msgstr ""
+
+#: ../init.php:457 ../init.php:476
+msgid "Color"
+msgstr ""
+
+#: ../init.php:470
+msgid "Upload Logo"
+msgstr ""
+
+#: ../init.php:580
+msgid "Someone in"
+msgstr ""
+
+#: ../init.php:581
+msgid "purchase a"
+msgstr ""
+
+#: ../init.php:582
+msgid "ago"
+msgstr ""
+
+#: ../init.php:583
+msgid "from now"
+msgstr ""
+
+#: ../init.php:584
+msgid "less than a minute"
+msgstr ""
+
+#: ../init.php:585
+msgid "about a minute"
+msgstr ""
+
+#: ../init.php:586
+msgid "minutes"
+msgstr ""
+
+#: ../init.php:587
+msgid "about an hour"
+msgstr ""
+
+#: ../init.php:588
+msgid "about"
+msgstr ""
+
+#: ../init.php:589
+msgid "hours"
+msgstr ""
+
+#: ../init.php:590
+msgid "a day"
+msgstr ""
+
+#: ../init.php:591
+msgid "days"
+msgstr ""
+
+#: ../init.php:592
+msgid "about a month"
+msgstr ""
+
+#: ../init.php:593
+msgid "months"
+msgstr ""
+
+#: ../init.php:594
+msgid "about a year"
+msgstr ""
+
+#: ../init.php:595
+msgid "years"
+msgstr ""
+
+#: ../init.php:596
+msgid "in"
+msgstr ""
+
+#: ../init.php:624
+msgid "Cepatlakoo Sales Booster"
+msgstr ""
+
+#: ../init.php:639
+msgid "Display sales booster notification in this page"
+msgstr ""
+
+#: ../init.php:655
+msgid "Select Product(s)"
+msgstr ""
+
+#: ../init.php:663
+msgid ""
+"If any selected, it will display sales notification from those "
+"product(s). If there's no sale yet for that product, it will display "
+"sales from other products. Don't select any product if you want to "
+"display notification from all products."
+msgstr ""
+
+#: ../init.php:747
+msgid "Marketplace Links"
+msgstr ""
+
+#: ../init.php:763
+msgid "Link to your product in marketplaces."
+msgstr ""
+
+#: ../init.php:774 ../init.php:789
+msgid "Link"
+msgstr ""
+
+#: ../init.php:776 ../init.php:791
+msgid "Open in New Tab"
+msgstr ""
+
+#: ../init.php:798
+msgid "Please setting listing marketplace first"
+msgstr ""

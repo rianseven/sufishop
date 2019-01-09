@@ -1,0 +1,101 @@
+** Changelog untuk Cepatlakoo Ongkir plugin **
+** Author: http://cepatlakoo.com **
+
+
+16 November 2018 - Versi 1.4.2
+- FIXED: menambah priority di nama kota dan nama kecamatan
+
+17 Oktober 2018 - Versi 1.4.1
+- FIXED: merubah protokol https://pro.rajaongkir.com/api
+- ADDED: Menambahkan fungsi untuk reposisi field di wc 3.5.0
+- ADDED: Menambahkan fungsi untuk tracking dengan shortcode [cepatlakoo-ongkir-tracking]
+
+17 Oktober 2018 - Versi 1.4.0
+- FIXED: Limit berat Pos Indonesia (50kg)
+- ADDED: Tambah Ninja Xpress, Lion Parcel dan IDL Cargo ke daftar kurir
+- UPDATED: Tampilan daftar kurir menggunakan style table bawaan WordPress
+- UPDATED: Tambahkan text domain ke teks yang belum memiliki text domain
+- ADDED: Menambahkan opsi untuk menyembunyikan estmasi waktu pengiriman pada halaman cart dan checkout
+
+29 Juni 2018 - Versi 1.3.3
+- FIXED: Bug undefined variable saat pertama kali instal plugin
+
+28 Mei 2018 - Versi 1.3.2
+- FIXED: Bug nama kota dengan subdistrict (kecamatan)
+- FIXED: Bug ketika opsi "Force shipping to the customer billing addres" dicentang
+- UPDATED: Tambah function untuk perhitungan shipping
+
+27 April 2018 - Versi 1.3.1
+- FIXED: Bug pada layanan kurir di halaman seting plugin ketika memilih paket Starter atau Basic
+- FIXED: Bug ubah alamat ke textarea di halaman My Account
+
+25 April 2018 - Versi 1.3.1
+- FIXED: Bug save data shipping address di halaman My Account
+- FIXED: Bug save data billing address di halaman My Account
+- ADDED: Tambah attribut "selected" pada ID city dan subdistrict
+- ADDED: Tambah function untuk set default value kota & subdistrict berdasarkan data user
+- UPDATED: Reorder field di halaman My Account > Edit Shipping & Billing Address
+
+18 April 2018 - Versi 1.3.1
+- FIXED: Fix bug shipping data when ship to different address.
+
+10 April 2018 - Versi 1.3.0
+- ADDED: Add option to select courier services.
+- ADDED: Add function to limit selected services.
+- ADDED: Add static option for ESL, Pandu, Wahana, J&T, Cahaya, Indah, First.
+
+06 April 2018 - Versi 1.2.7)
+- ADDED: Add subdistrict to city
+- ADDED: Add hidden type to wc field
+- ADDED: Add hidden input for city and subdistrict name
+- UPDATED: Change method update order meta city and subdistrict name
+- ADDED: Add js change city and subdistrict name
+
+03 April 2018 - Versi 1.2.6
+- FIXED: Fix get shipping data on process checkout
+
+29 Maret 2018 - Versi 1.2.5
+- FIXED: Fix icon & text notify
+- ADDED: Add validation server when connection time out return 0
+- ADDED: Add trancient data on request cost pro version
+- ADDED: Add cant connect to server warning message
+- ADDED: Add daily function to delete expired transient
+
+27 Maret 2018 - Versi 1.2.5
+- UPDATED: Change admin notify action
+- FIXED: Fix validation when not connect to starter version
+- FIXED: Fix update after save option
+- ADDED: Add transient data on each request
+
+26 Maret 2018 - Versi 1.2.4
+- UPDATED: Change checking server method fsockopen to curl
+- ADDED: Add transient data for checking server
+- UPDATED: Rollback conditional type akun rajaongkir
+
+23 Maret 2018 - Versi 1.2.3
+- ADDED: Add option to hide order notes.
+- ADDED: Add option to hide country.
+
+22 Maret 2018 - Versi 1.2.2
+- ADDED: Add server status.
+- ADDED: Add conditional account type.
+
+21 Maret 2018
+FIXED: Fix problem if cant connect to rajaongkir server
+- ADDED: Add option to hide last name field
+- ADDED: Add option to hide company field
+- ADDED: Add option to hide address 2 field
+- ADDED: Add option to remove required email field
+- UPDATED: Change class name on email, phone, city, subdistrict
+
+29-01-2017 :
+- fix request subdistrict on pro only 
+- fix only request cities on setup page
+
+20-12-2015 :
+- Change base url
+- Added couriers options
+
+08-04-2015 :
+- Implement select2.js
+- fix handling Rajaongkir API result

@@ -1,0 +1,26 @@
+** Changelog untuk Cepatlakoo Sales Booster plugin **
+** Author: http://cepatlakoo.com **
+
+09 November 2018 (v 1.2.2):
+- FIXED: fix flow function generate json files on completed order
+- FIXED: Tampilan popup box yang kurang rapi
+- UPDATED: Tampilan waktu pembelian kini lebih fresh
+- FIXED: add function to generate json if empty 
+
+18 Oktober 2018 (v 1.2.1):
+- FIXED: Perbaiki tutup quote di fb action
+
+17 Oktober 2018 (v 1.2.0):
+- ADDED: Tambah fitur marketplace product link
+- ADDED: Tambah fitur untuk menampilkan hanya notifikasi penjualan produk yang sama dengan produk yang sedang diview visitor
+- ADDED: Tambah fitur untuk menampilkan hanya notifikasi penjualan produk tertentu saja pada landing page
+- ADDED: Tambah opsi untuk menyembunyikan tanggal pembelian pada notifikasi penjualan
+- ADDED: Sekarang data penjualan pada sales booster dapat tergenerate secara otomatis
+- ADDED: Tambah action hook untuk auto update file json saat ada order baru yang statusnya Complete
+
+25 Juni 2018 - Versi 1.1.4
+- FIXED: Betulkan order by query order_id
+
+2 April 2018 - Versi 1.1.3
+- ADDED: Tambahkan saved setting notification
+- ADDED: changelog.txt

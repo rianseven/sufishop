@@ -1,0 +1,151 @@
+.cl_marketplace {
+    clear: both;
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+
+.cl_marketplace a {
+    max-width: calc(50% - 10px);
+    font-weight: 800;
+    display: inline-block;
+    padding: 0 15px 0 0;
+    line-height: 42px;
+    color: #fff !important;
+    position: relative;
+    white-space: nowrap;
+    margin: 5px 0;
+    text-align: left;
+    min-width: 32%;
+}
+
+.cl_marketplace a img {
+    width: auto !important;
+    max-height: 30px;
+    max-width: 100%;
+}
+
+.cl_marketplace a:before {
+    background: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .cl_marketplace a {
+        max-width: calc(33.33% - 10px);
+    }
+}
+
+.someone-contact div#someone-purchased {
+    margin-bottom: 42px; !important
+}
+
+div#someone-purchased {
+    width: 400px;
+    z-index: 9999;
+    opacity: 1;
+    transform: scale(1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: opacity ease-in .2s, transform ease-in .2s;
+    -webkit-transition: opacity ease-in .2s, transform ease-in .2s;
+    transform-origin: bottom center;
+    -webkit-transform-origin: bottom center;
+}
+
+div#someone-purchased.shown {
+   border: solid 1px #eeee;
+   animation: pulses 1.5s normal infinite ease-in-out, leaves .5s normal forwards ease-in-out;
+   -webkit-animation: pulses 1.5s normal infinite ease-in-out, leaves .5s normal forwards ease-in-out;
+}
+div#someone-purchased.hidden {
+   animation: ends .5s normal forwards ease-in-out;
+   -webkit-animation: ends .5s normal forwards ease-in-out;
+}
+
+#someone-purchased p {
+    margin-left: 80px !important;
+    float: none !important;
+    width: calc(100% - 80px) !important;
+}
+
+#someone-purchased p small{
+	color: #2196f3;
+}
+
+#someone-purchased p small:before {
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 14px;
+	background-image: url(../images/flash.svg);
+	background-position: center left;
+	background-repeat: no-repeat;
+	margin-right: 2px;
+	vertical-align: middle;
+	background-size: contain;
+}
+#someone-purchased img {
+    float: left;
+    width: 80px !important;
+}
+
+@keyframes leaves {
+    0% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes ends {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+}
+@keyframes pulses {
+    0% {
+        box-shadow: 0 0 1px 0 rgba(91, 168, 234, 0.4);
+        -webkit-box-shadow: 0 0 1px 0 rgba(91, 168, 234, 0.4);
+    
+    }
+    40% {
+        box-shadow: 0 0 5px 10px rgba(94, 161, 231, 0);
+        -webkit-box-shadow: 0 0 5px 10px rgba(94, 161, 231, 0);
+    }
+    80% {
+        box-shadow: 0 0 10px 10px rgba(90, 93, 180, 0);
+        -webkit-box-shadow: 0 0 10px 10px rgba(90, 93, 180, 0);
+    }
+    100% {
+        box-shadow: 0 0 1px 0 rgba(91, 168, 234, 0);
+        -webkit-box-shadow: 0 0 1px 0 rgba(91, 168, 234, 0);
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #someone-purchased img {
+        margin-right: 10px !important;;
+    }
+
+    #someone-purchased p {
+        line-height: 140% !important;
+        padding-top: 5px !important;
+    }
+}

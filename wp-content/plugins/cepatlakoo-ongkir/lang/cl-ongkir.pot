@@ -1,0 +1,347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CepatLakoo Ongkit\n"
+"POT-Creation-Date: 2018-09-10 09:32+0700\n"
+"PO-Revision-Date: 2017-09-14 15:16+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-cl-ongkir.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: cl-ongkir-shipping-method.php:21 cl-ongkir-shipping-method.php:76
+msgid "Cepatlakoo Ongkir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:22
+msgid "WooCommerce add-on for indonesian local shipping."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:138 cl-ongkir-shipping-method.php:141
+#: cl-ongkir-shipping-method.php:154 cl-ongkir-shipping-method.php:168
+msgid "Server offline"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:146 cl-ongkir-shipping-method.php:160
+msgid "Server online"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:151 cl-ongkir-shipping-method.php:165
+msgid "IP Website Anda Sepertinya Diblokir Oleh RajaOngkir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:172
+msgid "Cepatlakoo Ongkir Shipping"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:177
+msgid "Status Server RajaOngkir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:179
+msgid "Starter / Basic API:"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:186
+msgid "Pro API:"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:207
+msgid "Harap memilih jasa kurir terlebih dahulu."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:219
+msgid "Tidak bisa terkoneksi dengan server "
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:227
+msgid "Harap masukkan API Key Raja Ongkir terlebih dahulu."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:235
+msgid "Harap memilih kota pengiriman terlebih dahulu."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:243
+msgid "ERROR: API key tidak ditemukan di database Raja Ongkir."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:266 cl-ongkir-shipping-method.php:270
+msgid "Pastikan API Key dan tipe akun yang diinput sudah benar"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:282
+msgid "Aktifkan Ongkir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:285
+msgid "Aktifkan metode pengiriman dengan Cepatlakoo Ongkir."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:286
+msgid "Refresh halaman ini untuk menghapus cache."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:290
+msgid "API Key Raja Ongkir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:294
+msgid ""
+"Pastikan API Key yang diinput benar dan Simpan perubahan setelah "
+"memasukkan API agar Anda dapat memiliki basis kota pengiriman. <br>Tidak "
+"punya API Key Raja Ongkir? <a href=\""
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:299
+msgid "Tipe Akun RajaOngkir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:303
+msgid "Tipe akun RajaOngkir yang Anda gunakan."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:305
+msgid "Starter"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:306
+msgid "Basic"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:307
+msgid "Pro"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:312
+msgid "Lokasi Gudang Pengiriman Produk"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:316
+msgid ""
+"Lokasi gudang tempat mengirim produk. Pastikan API Key sudah dimasukkan "
+"agar daftar kota dapat muncul."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:318
+msgid "Pilih Kota Pengiriman"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:322
+msgid "Jasa Kurir"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:327
+msgid "Jasa kurir yang ingin digunakan."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:336
+msgid "Berat Minimum Produk ("
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:337
+msgid "Berat minimum produk agar dapat melakukan perhitungan ongkir."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:345
+msgid "Sembunyikan Field Last Name"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:348 cl-ongkir-shipping-method.php:356
+#: cl-ongkir-shipping-method.php:364 cl-ongkir-shipping-method.php:372
+#: cl-ongkir-shipping-method.php:380 cl-ongkir-shipping-method.php:388
+#: cl-ongkir-shipping-method.php:396
+msgid "Ya"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:349
+msgid ""
+"Sembunyikan field Last Name pada halaman checkout dan jadikan first name "
+"sebagai Full Name."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:353
+msgid "Sembunyikan Field Company Name"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:357
+msgid "Sembunyikan field Company Name pada halaman checkout."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:361
+msgid "Sembunyikan Field Country"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:365
+msgid "Sembunyikan field Country pada halaman checkout."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:369
+msgid "Field Address 1 Menggunakan textarea"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:373
+msgid ""
+"Membuat field Address Line 1 menggunakan textarea yang memiliki jumlah "
+"baris lebih banyak."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:377
+msgid "Sembunyikan Field Address Line 2"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:381
+msgid "Sembunyikan field Address Baris Kedua pada halaman checkout."
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:385
+msgid "Matikan required di field email"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:389
+msgid ""
+"Matikan required di field email pada halaman checkout. Jadi pengunjung "
+"bisa order tanpa harus mengisi email"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:393
+msgid "Sembunyikan Field Order Notes"
+msgstr ""
+
+#: cl-ongkir-shipping-method.php:397
+msgid "Sembunyikan Field Order Notes pada halaman checkout."
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:25
+msgid ""
+"Seting plugin Cepatlakoo Ongkir masih belum lengkap. Harap dilengkapi "
+"terlebih dahulu."
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:26
+msgid "Seting Sekarang"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:36
+msgid ""
+"Segera non-aktifkan plugin Cepatlakoo MyOngkir, agar tidak terjadi konflik "
+"dengan plugin Cepatlakoo Ongkir"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:46
+msgid ""
+"Indo Ongkir plugin is active, please deactivate it to prevent any conflict "
+"with Cepatlakoo Ongkir"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:162
+msgid "Weight is empty!"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:175
+msgid ""
+"Plugin Cepatlakoo Ongkir Shipping only based location must be Indonesia."
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:187
+msgid "Plugin Cepatlakoo Ongkir Shipping must use IDR currency."
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:305
+msgid "Minimum Weight"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:309
+msgid "Default cart weight if cart doesn't meet, based on weight unit."
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:339 woocommerce-cl-ongkir.php:385
+msgid "Full Name"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:555 woocommerce-cl-ongkir.php:569
+msgid "City"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:556 woocommerce-cl-ongkir.php:562
+#: woocommerce-cl-ongkir.php:570 woocommerce-cl-ongkir.php:576
+#: woocommerce-cl-ongkir.php:600 woocommerce-cl-ongkir.php:606
+msgid "Select an option"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:599
+msgid "Subdistrict"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:646 woocommerce-cl-ongkir.php:736
+msgid "Server error, Cant connect to Ongkir API"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:859 woocommerce-cl-ongkir.php:902
+msgid "Provinsi"
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:860 woocommerce-cl-ongkir.php:903
+msgid "Pilh Provinsi..."
+msgstr ""
+
+#: woocommerce-cl-ongkir.php:946
+msgid "Total weight"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:36
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:60
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:61
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Select a province first&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:93
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:98
+msgid "Update totals"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://cepatlakoo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin perhitungan ongkos kirim menggunakan API Raja Ongkir. Dibuat "
+"berdasarkan plugin MyOngkir dengan berbagai perbaikan."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "eezhal"
+msgstr ""

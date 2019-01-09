@@ -1,0 +1,233 @@
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-day,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-hour,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-minute,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-second,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-date,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-hour,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-minute,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-second {
+	display: inline-block;
+    width: 20%;
+    margin-right: 2%;
+}
+
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-day .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-hour .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-minute .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-second .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-date .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-hour .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-minute .cmb-th,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-second .cmb-th {
+	width: 100%;
+}
+
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-day .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-hour .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-minute .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-second .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-date .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-hour .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-minute .cmb-td,
+body.post-type-cl_countdown_timer .cmb2-id-cl-normal-countdown-second .cmb-td {
+	width: 100%;
+	text-align: left;
+}
+
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-shortcode .cmb-td {
+	width: 100%;
+}
+
+body.post-type-cl_countdown_timer .cmb2-id-cl-countdown-shortcode input {
+	/*pointer-events: none;*/
+	font-family: monospace;
+	font-size: 15px;
+	width: 100%;
+}
+
+span.cl-shortcode {
+	font-family: monospace;
+	font-size: 15px;
+}
+
+.column-featured_image img{
+	max-width: 100%;
+}
+
+th#featured_image {
+    width: 13%;
+}
+
+th#contact {
+	width: 12%;
+}
+
+td.column-contact a {
+	min-width: 73px;
+	color: #ffffff !important;
+	line-height: 150% !important;
+	margin-right: 5px !important;
+	margin-bottom: 10px !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+td.column-contact a.whatsapp {
+	background: #0dba4e !important;
+}
+
+td.column-contact a.sms {
+	background: #efc33c !important;
+}
+
+td.column-contact a.whatsapp:before,
+td.column-contact a.sms:before {
+    display: inline-block;
+    content: "\f125";
+    font-family: dashicons;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+td.column-contact a.sms:before {
+	content: '\f465';
+}
+
+body.appearance_page_tgmpa-install-plugins table.wp-list-table tr.redux-framework td {
+	background-color: #a3d7ff;
+}
+
+body.appearance_page_cepatlakoo-license span.active-sites {
+	font-weight: 700;
+	color: green;
+}
+
+.rAds {
+	display: none !important;
+}
+
+.cl-notif {
+    color: #ff0000;
+}
+
+ul.setup-panel {
+	display: inline-flex !important;
+	width: 100%;
+}
+
+.setup-panel li {
+	width: 33%;
+	text-align: center;
+	border-bottom: 4px solid #ccc !important;
+}
+
+.setup-panel li a{
+	text-decoration:none;
+	color: #aaa;
+}
+
+.setup-panel li.active {
+	border-bottom: 4px solid #006799 !important;
+}
+
+.setup-panel li.active a {
+	color: #006799;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item {
+    padding: 10px 90px 10px 40px;
+    border: solid 1px #e6e6e6;
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    margin: 0;
+}
+
+button.cl_marketplace_plus,
+button.cl_marketplace_min,
+button.cl_marketplace_setting_plus,
+button.cl_marketplace_setting_min,
+button.fb_id_cl_marketplace_plus,
+button.fb_id_cl_marketplace_min {
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 30px;
+    font-weight: bold;
+    background: #0085ba;
+    border: 0;
+    color: #ffffff;
+    border-radius: 3px;
+    border-bottom: solid 2px #006799;
+    font-size: 20px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+button.cl_marketplace_plus:hover,
+button.cl_marketplace_min:hover,
+button.cl_marketplace_setting_plus:hover,
+button.cl_marketplace_setting_min:hover,
+button.fb_id_cl_marketplace_plus:hover,
+button.fb_id_cl_marketplace_min:hover {
+    background: #006799;
+}
+
+.cl-cr-admin-post-form select {
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item select, ul.cl_marketplace_parent_button li.cl_marketplace_item input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    max-width: inherit;
+    font-size: 14px;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item span.dashicons.dashicons-move {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    line-height: 50px;
+    text-align: center;
+    cursor: -webkit-grab;
+}
+
+button.cl_marketplace_plus, button.cl_marketplace_min {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button.cl_marketplace_plus {
+    margin-right: 40px;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item input:not([type='checkbox']) {
+    width: calc(40% - 10px);
+    margin-left: 10px;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item input[type='checkbox'] {
+	width: inherit;
+	margin-left: 10px;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item + li.cl_marketplace_item {
+    margin-top: 15px;
+}
+
+ul.cl_marketplace_parent_button li.cl_marketplace_item:hover {
+    box-shadow: 0 0 20px rgba(221, 234, 240, 0.54);
+    border-color: #d9f4ff;
+}

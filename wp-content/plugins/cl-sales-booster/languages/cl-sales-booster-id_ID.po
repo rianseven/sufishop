@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cepatlakoo Sales Booster\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-17 12:54+0700\n"
+"PO-Revision-Date: 2018-10-17 13:00+0700\n"
+"Last-Translator: ThemeWarrior <support@themewarrior.com>\n"
+"Language-Team: Cepatlakoo <cepatlakoo@gmail.com>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: esc_html_e;_e;__;esc_html__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../cepatlakoo-sales-booster.php:25
+msgid "Settings"
+msgstr ""
+
+#: ../cepatlakoo-sales-booster.php:57 ../init.php:374
+msgid "Every 3 Hours"
+msgstr "Setiap 3 Jam"
+
+#: ../cepatlakoo-sales-booster.php:61 ../init.php:375
+msgid "Every 6 Hours"
+msgstr "Setiap 6 Jam"
+
+#: ../cepatlakoo-sales-booster.php:65 ../init.php:378
+msgid "Weekly"
+msgstr "Seminggu Sekali"
+
+#: ../cepatlakoo-sales-booster.php:94
+msgid ""
+"Cepatlakoo Sales Booster is an Extension to WooCommerce. Please activate "
+"WooCommerce first!"
+msgstr ""
+"Cepatlakoo Sales Booster adalah add-on untuk WooCommerce. Harap aktifkan "
+"WooCommerce terlebih dahulu!"
+
+#: ../init.php:39
+msgid "Setting Saved."
+msgstr ""
+
+#: ../init.php:202
+msgid "Cepatlakoo Sales Booster for WooCommerce"
+msgstr "Cepatlakoo Sales Booster untuk WooCommerce"
+
+#: ../init.php:205
+msgid "Sales Booster"
+msgstr ""
+
+#: ../init.php:206
+msgid "Marketplace"
+msgstr ""
+
+#: ../init.php:251
+msgid "Enable Sales Booster"
+msgstr "Aktifkan Sales Booster"
+
+#: ../init.php:255 ../init.php:266 ../init.php:326 ../init.php:351
+#: ../init.php:362 ../init.php:393
+msgid "Yes"
+msgstr "Ya"
+
+#: ../init.php:257 ../init.php:395
+msgid "No"
+msgstr "Tidak"
+
+#: ../init.php:262
+msgid "Display buyer's name?"
+msgstr "Tampilkan nama pembeli?"
+
+#: ../init.php:273
+msgid "Number of sales displayed:"
+msgstr "Jumlah penjualan yang ditampilkan:"
+
+#: ../init.php:288
+msgid "Set minimal delay"
+msgstr "Set delay minimal"
+
+#: ../init.php:298 ../init.php:315
+msgid "seconds"
+msgstr "detik"
+
+#: ../init.php:299
+msgid "Minimum delay time between each notification."
+msgstr "Jeda minimum antar tiap notifikasi"
+
+#: ../init.php:305
+msgid "Set maxmimum delay"
+msgstr "Set delay maksimum"
+
+#: ../init.php:316
+msgid "Max value must greater than min value"
+msgstr "Nilai maksimal harus lebih besar dari nilai minimal"
+
+#: ../init.php:317
+msgid "Maximum delay time between each notification."
+msgstr "Jeda maksimal antar tiap notifikasi"
+
+#: ../init.php:322
+msgid "Display randomly?"
+msgstr "Tampilkan secara acak?"
+
+#: ../init.php:333
+msgid "Product Name Length"
+msgstr "Panjang Nama Produk"
+
+#: ../init.php:337
+msgid "Unlimited"
+msgstr ""
+
+#: ../init.php:342
+msgid "Word(s)"
+msgstr "Kata"
+
+#: ../init.php:347
+msgid "Display from same product ?"
+msgstr "Tampilkan hanya dari produk yang sama?"
+
+#: ../init.php:353
+msgid ""
+"If selected, it will ONLY display sales notification from the same product "
+"on the product page. If there's no sale yet for that product, it will "
+"display sales from other products."
+msgstr ""
+"Jika dicentang, maka HANYA akan menampilkan notifikasi penjualan dari produk "
+"yang sama pada halaman produk detail. Jika belum ada penjualan untuk produk "
+"tersebut maka akan menampilkan notifikasi produk lain."
+
+#: ../init.php:358
+msgid "Display purchase date"
+msgstr "Tampilkan tanggal pembelian"
+
+#: ../init.php:369
+msgid "Auto Update Order List"
+msgstr ""
+
+#: ../init.php:373
+msgid "Every 1 Hour"
+msgstr "Setiap 1 Jam"
+
+#: ../init.php:376
+msgid "Every 12 Hours"
+msgstr "Setiap 12 Jam"
+
+#: ../init.php:377
+msgid "Daily"
+msgstr "Sehari Sekali"
+
+#: ../init.php:385 ../init.php:489
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: ../init.php:389
+msgid "Enable Marketplace Link"
+msgstr "Aktifkan Fitur Marketplace Link"
+
+#: ../init.php:399
+msgid "Text Information"
+msgstr "Teks Informasi"
+
+#: ../init.php:411
+msgid "Facebook Pixel Event"
+msgstr ""
+
+#: ../init.php:426
+msgid "Custom Event"
+msgstr ""
+
+#: ../init.php:432
+msgid "Listing Marketplace"
+msgstr ""
+
+#: ../init.php:437
+msgid "Sort"
+msgstr "Urutkan"
+
+#: ../init.php:438
+msgid "Logo"
+msgstr ""
+
+#: ../init.php:439 ../init.php:454 ../init.php:473
+msgid "Name"
+msgstr "Nama"
+
+#: ../init.php:440
+msgid "Action"
+msgstr "Tindakan"
+
+#: ../init.php:451
+msgid "Change Logo"
+msgstr "Ubah Logo"
+
+#: ../init.php:457 ../init.php:476
+msgid "Color"
+msgstr "Warna"
+
+#: ../init.php:470
+msgid "Upload Logo"
+msgstr ""
+
+#: ../init.php:580
+msgid "Someone in"
+msgstr "Seseorang di"
+
+#: ../init.php:581
+msgid "purchase a"
+msgstr "telah membeli"
+
+#: ../init.php:582
+msgid "ago"
+msgstr "yang lalu"
+
+#: ../init.php:583
+msgid "from now"
+msgstr "mulai sekarang"
+
+#: ../init.php:584
+msgid "less than a minute"
+msgstr "kurang dari satu menit yang lalu"
+
+#: ../init.php:585
+msgid "about a minute"
+msgstr "sekitar satu menit"
+
+#: ../init.php:586
+msgid "minutes"
+msgstr "menit"
+
+#: ../init.php:587
+msgid "about an hour"
+msgstr "sekitar satu jam"
+
+#: ../init.php:588
+msgid "about"
+msgstr "sekitar"
+
+#: ../init.php:589
+msgid "hours"
+msgstr "jam"
+
+#: ../init.php:590
+msgid "a day"
+msgstr "sehari"
+
+#: ../init.php:591
+msgid "days"
+msgstr "hari"
+
+#: ../init.php:592
+msgid "about a month"
+msgstr "sekitar sebulan"
+
+#: ../init.php:593
+msgid "months"
+msgstr "bulan"
+
+#: ../init.php:594
+msgid "about a year"
+msgstr "sekitar setahun"
+
+#: ../init.php:595
+msgid "years"
+msgstr "tahun"
+
+#: ../init.php:596
+msgid "in"
+msgstr "di"
+
+#: ../init.php:624
+msgid "Cepatlakoo Sales Booster"
+msgstr "Cepatlakoo Sales Booster"
+
+#: ../init.php:639
+msgid "Display sales booster notification in this page"
+msgstr "Tampilkan notifikasi sales booster di halaman ini"
+
+#: ../init.php:655
+msgid "Select Product(s)"
+msgstr "Pilih Produk"
+
+#: ../init.php:663
+msgid ""
+"If any selected, it will display sales notification from those product(s). "
+"If there's no sale yet for that product, it will display sales from other "
+"products. Don't select any product if you want to display notification from "
+"all products."
+msgstr ""
+"Jika ada produk yang dipilih dari daftar di atas, maka akan menampilkan "
+"notifikasi penjualan dari produk-produk tersebut, jika belum ada penjualan "
+"sama sekali untuk produk yang dipilih maka akan ditampilkan notifikasi "
+"penjualan produk lain. JANGAN pilih apapun pada daftar di atas jika ingin "
+"menampilkan notifikasi penjualan untuk semua produk."
+
+#: ../init.php:747
+msgid "Marketplace Links"
+msgstr ""
+
+#: ../init.php:763
+msgid "Link to your product in marketplaces."
+msgstr "Link produk Anda di berbagai marketplace."
+
+#: ../init.php:774 ../init.php:789
+msgid "Link"
+msgstr ""
+
+#: ../init.php:776 ../init.php:791
+msgid "Open in New Tab"
+msgstr "Buka di Tab Baru"
+
+#: ../init.php:798
+msgid "Please setting listing marketplace first"
+msgstr "Harap seting listing marketplace terlebih dahulu"
+
+#~ msgid ""
+#~ "Will only display sales notification from the above selected product(s)."
+#~ msgstr "Jik"
+
+#~ msgid "Notify store visitors about the recent WooCommerce sales"
+#~ msgstr ""
+#~ "Menampilkan notifikasi ke pengunjung website mengenai order terbaru pada "
+#~ "toko online WooCommerce."
+
+#~ msgid "Set a timer to delay sales items in the queue"
+#~ msgstr "Delay per notifikasi"
+
+#~ msgid "Enable Woo Sales Boaster"
+#~ msgstr "Aktifan Woo Sales Boaster"

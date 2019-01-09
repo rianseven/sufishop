@@ -1,0 +1,102 @@
+#shipping-track {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#shipping-track > h3 {
+    border-bottom: solid 1px #eeeeee;
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#shipping-track > h3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 80px;
+    margin-left: -40px;
+    background: #386fa4;
+    height: 1px;
+}
+
+#shipping-track .row .col h4 {
+    margin-bottom: 0;
+    padding: 10px;
+    background: #eaeeff;
+    color: #141f3f;
+    font-weight: bold;
+}
+
+#shipping-track .row .col+.col {
+    margin-top: 40px;
+}
+
+#shipping-track .row .col table tr td {
+    border: 0;
+    background: #f6f8ff;
+    padding: 10px 15px;
+}
+
+#shipping-track .row .col table tr:nth-child(odd) td {
+    background: #fcfcff;
+}
+
+#shipping-track .row .col table tr td:first-child {
+    width: 25%;
+    font-weight: bold;
+    color: #000000;
+}
+
+#shipping-track .row+.row {
+    margin-top: 20px;
+}
+
+form#tracking-form {}
+
+form#tracking-form .form-group {
+    float: left;
+    width: calc(100% - 220px);
+    padding-right: 10px;
+}
+
+form#tracking-form button.button {
+    float: left;
+    width: 100px;
+    margin-top: 20px;
+}
+
+form#tracking-form .form-group:first-child {
+    width: 120px;
+}
+
+form#tracking-form .form-group label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+form#tracking-form .form-group small {
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 480px) {
+    form#tracking-form .form-group {
+        width: calc(100% - 120px);
+        padding-right: 0;
+    }
+
+    form#tracking-form .form-group:first-child {
+        padding-right: 5px;
+    }
+
+    form#tracking-form button.button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
